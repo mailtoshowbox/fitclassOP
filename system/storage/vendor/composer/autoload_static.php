@@ -123,7 +123,6 @@ class ComposerStaticInit4356ab4fdc794d105db4fa48b241456c
     );
 
     public static $classMap = array (
-        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'scss_formatter' => __DIR__ . '/..' . '/leafo/scssphp/scss.inc.php',
         'scss_formatter_compressed' => __DIR__ . '/..' . '/leafo/scssphp/scss.inc.php',
         'scss_formatter_nested' => __DIR__ . '/..' . '/leafo/scssphp/scss.inc.php',

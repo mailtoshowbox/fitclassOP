@@ -1,18 +1,18 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost/OP-1/admin/');
-define('HTTP_CATALOG', 'http://localhost/OP-1/');
+define('HTTP_SERVER', 'http://localhost/fitclassOP/admin/');
+define('HTTP_CATALOG', 'http://localhost/fitclassOP/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost/OP-1/admin/');
-define('HTTPS_CATALOG', 'http://localhost/OP-1/');
+define('HTTPS_SERVER', 'http://localhost/fitclassOP/admin/');
+define('HTTPS_CATALOG', 'http://localhost/fitclassOP/');
 
 // DIR
-define('DIR_APPLICATION', 'C:/MAILTOSHOWBOX/XAMPP/htdocs/OP-1/admin/');
-define('DIR_SYSTEM', 'C:/MAILTOSHOWBOX/XAMPP/htdocs/OP-1/system/');
-define('DIR_IMAGE', 'C:/MAILTOSHOWBOX/XAMPP/htdocs/OP-1/image/');
-define('DIR_STORAGE', 'C:/MAILTOSHOWBOX/XAMPP/storage/');
-define('DIR_CATALOG', 'C:/MAILTOSHOWBOX/XAMPP/htdocs/OP-1/catalog/');
+define('DIR_APPLICATION', 'C:/MAILTOSHOWBOX/XAMPP/htdocs/fitclassOP/admin/');
+define('DIR_SYSTEM', 'C:/MAILTOSHOWBOX/XAMPP/htdocs/fitclassOP/system/');
+define('DIR_IMAGE', 'C:/MAILTOSHOWBOX/XAMPP/htdocs/fitclassOP/image/');
+define('DIR_STORAGE', 'C:/MAILTOSHOWBOX/storage/');
+define('DIR_CATALOG', 'C:/MAILTOSHOWBOX/XAMPP/htdocs/fitclassOP/catalog/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/template/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');
@@ -28,7 +28,7 @@ define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
-define('DB_DATABASE', 'OP-1');
+define('DB_DATABASE', 'fitclassop');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
 

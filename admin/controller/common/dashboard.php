@@ -33,7 +33,8 @@ class ControllerCommonDashboard extends Controller {
 
 		// Get a list of installed modules
 		$extensions = $this->model_setting_extension->getInstalled('dashboard');
-		
+
+				
 		// Add all the modules which have multiple settings for each module
 		foreach ($extensions as $code) {
 			if ($this->config->get('dashboard_' . $code . '_status') && $this->user->hasPermission('access', 'extension/dashboard/' . $code)) {
@@ -47,8 +48,10 @@ class ControllerCommonDashboard extends Controller {
 						'output'     => $output
 					);
 				}
-			}
+			} 
 		}
+
+		//exit;
 
 		$sort_order = array();
 
@@ -92,6 +95,7 @@ class ControllerCommonDashboard extends Controller {
 
 			$this->model_localisation_currency->refresh();
 		}
+		
 
 		$this->response->setOutput($this->load->view('common/dashboard', $data));
 	}
