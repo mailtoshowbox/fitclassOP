@@ -1,10 +1,10 @@
 <?php
 // Heading
-$_['heading_title']             = 'Wallet';
+$_['heading_title']             = 'My Wallet';
 
 // Text
 $_['text_success']              = 'Success: You have modified customers!';
-$_['text_list']                 = 'Customer List';
+$_['text_list']                 = 'Recent Transaction';
 $_['text_add']                  = 'Add Customer';
 $_['text_edit']                 = 'Edit Customer';
 $_['text_default']              = 'Default';
